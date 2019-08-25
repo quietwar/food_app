@@ -31,8 +31,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.297772266143-7r43mffqft26l0vhao0ag1sr10ap7src
-</string>
+				<string>297772266143-7r43mffqft26l0vhao0ag1sr10ap7src.apps.googleusercontent.com</string>
 			</array>
 		</dict>
 	</array>

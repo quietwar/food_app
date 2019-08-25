@@ -1,22 +1,18 @@
 buildscript {
     repositories {
-      google()
-      jcenter()
-      
-}
+        google()
+        jcenter()
+    }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
-        classpath 'com.google.gms:google-services:4.3.0'
-   }
+        classpath 'com.android.tools.build:gradle:3.3.0'
+    }
 }
-
 
 allprojects {
     repositories {
         google()
         jcenter()
- 
     }
 }
 
@@ -42,4 +38,3 @@ subprojects {
         }
     }
 }
-

@@ -102,18 +102,18 @@ class _LoginFormState extends State<LoginForm> {
                 children: <Widget>[
                   Padding(
                     padding: EdgeInsets.symmetric(vertical: 20),
-                    child: Image.asset('assets/HGP_Yellow_small.png', height: 200),
+                    child: Image.asset('assets/hodari.png', height: 200),
                   ),
                   TextFormField(
                     controller: _emailController,
                     decoration: InputDecoration(
                       icon: Icon(Icons.email),
                       labelText: 'Email',
-                      fillColor:Colors.yellowAccent,
+                      fillColor:Colors.blue,
                       hintText: 'gmail',
                       ),
                     autovalidate: true,
-                    style: TextStyle(color:PrimaryColor), 
+                    style: TextStyle(color: Colors.indigo[200]), 
                     autocorrect: false,
                     validator: (_) {
                       return !state.isEmailValid ? 'Invalid Email' : null;
